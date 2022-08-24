@@ -1,0 +1,24 @@
+{
+    "name": "osynapsy.net/osynapsy-datastructure",
+    "version": "1.0",
+    "homepage": "http://www.osynapsy.net/datastructure",
+    "type": "library",
+    "description": "Osynapsy datastructure",
+    "keywords": ["Osynapsy", "Datastructures"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pietro Celeste",
+            "email": "p.celeste@osynapsy.net",
+            "homepage": "https://github.com/osynapsy/osynapsy-datastructure/wiki"
+        }
+    ],
+    "require": {
+        "php" : ">=7.2.0"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Osynapsy\\DataStructure\\": "src/Osynapsy/DataStructure/"
+        }
+    }
+}
