@@ -1,6 +1,6 @@
 {
     "name": "osynapsy.net/osynapsy-datastructure",
-    "version": "1.0",
+    "version": "0.9",
     "homepage": "http://www.osynapsy.net/datastructure",
     "type": "library",
     "description": "Osynapsy datastructure",
