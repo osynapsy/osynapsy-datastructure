@@ -190,7 +190,7 @@ class Dictionary implements \ArrayAccess, \Iterator, \Countable
                 $this->search($keySearch, $value, $result);
             }
         }
-        return  $result;
+        return $result;
     }
 
     public static function flatternize($array)
