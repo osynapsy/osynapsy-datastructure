@@ -48,8 +48,8 @@ class Tree
             $child['_position'] = $this->setPosition($idx, $lastIdx);
             if(!empty($rawDataSet[$childId])){
                $child['_childrens'] = $this->branchFactory($rawDataSet, $childId, $level + 1);
-               if (in_array($childId, $this->openNodes)) {
-                   $child[$this->keyIsOpen] = 1;
+               if (!is_null($this->keyIsOpen)) {
+                   $child[$this->keyIsOpen] = in_array($childId, $this->openNodes) ? 1 : 0;
                }
             }
             if (!empty($child[$this->keyIsOpen])) {
